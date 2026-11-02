@@ -35,12 +35,14 @@ function escapeHtml(str) {
     .replace(/"/g, "&quot;");
 }
 
-// Turn plain URLs into clickable links (runs AFTER escaping)
+// Turn plain URLs and email addresses into clickable links (runs AFTER escaping)
 function linkify(escaped) {
-  return escaped.replace(
-    /(https?:\/\/[^\s<]+)/g,
-    '<a href="$1" style="color:#4f46e5;">$1</a>'
-  );
+  return escaped
+    .replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" style="color:#4f46e5;">$1</a>')
+    .replace(
+      /(^|[\s>])([A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,})/g,
+      '$1<a href="mailto:$2" style="color:#4f46e5;">$2</a>'
+    );
 }
 
 function createTransporter() {

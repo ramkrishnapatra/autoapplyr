@@ -4,11 +4,12 @@ Open the app and your heading and message are already filled in. Edit them, add 
 attach your resume, and click **Send Emails**. Every recipient receives their **own separate email**
 (no CC/BCC, nobody sees the other addresses).
 
-## What's new
+## Features
 
-- Heading and message are pre-filled with your application text every time the app opens.
-- Each field has a **Clear** button (removes all text so you can write fresh) and a **Reset** button (restores the default).
-- Sending is blocked without an attachment, both in the UI (button disabled) and on the server (API returns an error).
+- Heading and message are pre-filled with your application template every time the app opens.
+- Each field has a **Clear** button (removes all text) and a **Reset** button (restores the default).
+- Sending is blocked without an attachment, both in the UI and on the server.
+- Email addresses and URLs in the message become clickable links in the HTML email.
 - Ant Design UI that works like an app on desktop and mobile, with a sticky send bar.
 
 To change the default text, edit `app/defaults.js`.

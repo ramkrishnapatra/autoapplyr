@@ -3,17 +3,21 @@ export const DEFAULT_SUBJECT = "Application for Suitable Opportunities – Resum
 
 export const DEFAULT_MESSAGE = `Dear Hiring Team,
 
-I am Parimal Maity, currently working as an Associate Software Engineer Intern at Codilar Technologies Pvt. Ltd. I am looking for a suitable role aligned with my skills and professional experience.
+I hope you are doing well.
 
-I have completed my B.Tech in Computer Science and Engineering (AI & ML) in 2026. My technical skills include MERN Stack, Java, Magento 2, PHP, JavaScript, MySQL, and MongoDB.
+I am writing to express my interest in suitable opportunities at your organization.
 
-Please find my resume attached for your consideration. If you have any openings matching my profile, I would appreciate it if you could consider my application.
+I am a B.Tech graduate in Computer Science and Engineering (8.4 CGPA), currently working as a Magento 2 Backend Developer Intern at Codilar Technologies. I have hands-on experience in PHP, MySQL, Magento 2, JavaScript, React.js, Node.js, Express.js, MongoDB, REST APIs, and GraphQL.
 
-Portfolio: https://www.mydevstudio.in
-Contact: +91 7407806094
-Email: parimalmaity852@gmail.com
+Additionally, I have worked on full-stack applications and AI-powered projects, which have strengthened my problem-solving and development skills.
+
+I am eager to contribute my technical knowledge, learn new technologies, and grow professionally within your organization.
+
+Please find my updated resume attached for your consideration. I would appreciate the opportunity to be considered for any suitable openings.
 
 Thank you for your time and consideration.
 
 Best regards,
-Parimal Maity`;
+Ramkrishna Patra
+Phone: +91 8509045314
+Email: ramkrishnapatra136@gmail.com`;
